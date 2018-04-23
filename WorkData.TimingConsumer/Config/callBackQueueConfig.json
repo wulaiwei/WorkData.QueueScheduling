@@ -1,0 +1,12 @@
+﻿{
+  "components": [
+    {
+      "type": "WorkData.Service.Core.Config.CallBackQueueConfig,WorkData.Service.Core",
+      "injectProperties": true,
+      "properties": {
+        "QueueName": "CallBackQueue",
+        "RoutingKey": "CallBackQueue"
+      }
+    }
+  ]
+}

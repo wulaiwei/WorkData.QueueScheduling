@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="dapper" type="Dapper.DapperConfigurationSectionHandler,Customized.Dapper" />
+  </configSections>
+  <dapper>
+    <!--<property name="dialect" value="Dapper.Dialect.SqlServer" />-->
+    <!--<property name="sql_generator" value="Dapper.SqlGeneratorImpl" />-->
+    <property name="connection_class" value="System.Data.SqlClient.SqlConnection,System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <property name="connection_string" value="data source=.;initial catalog=AuthIdentity;user id=sa;password=123" />
+    <!--<property name="connection_name" value="sql_connection_string" />-->
+    <mapping>
+      <assembly>Dapper.Customize.Model</assembly>
+      <assembly>Dapper.Customize.Model</assembly>
+      <assembly>Dapper.Customize.Model</assembly>
+    </mapping>
+  </dapper>
+</configuration>

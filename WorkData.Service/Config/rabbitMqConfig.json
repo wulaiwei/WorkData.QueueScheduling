@@ -1,0 +1,13 @@
+﻿{
+  "components": [
+    {
+      "type": "WorkData.Util.RabbitMQ.RealTime.WorkDataRabbitConfig,WorkData.Util.RabbitMQ",
+      "injectProperties": true,
+      "properties": {
+        "HostName": "127.0.0.1",
+        "UserName": "workdata",
+        "Password": "workdata"
+      }
+    }
+  ]
+}

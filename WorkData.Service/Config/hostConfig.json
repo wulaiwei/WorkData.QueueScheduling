@@ -1,0 +1,18 @@
+﻿{
+  "components": [
+    {
+      "type": "WorkData.Util.Common.TopSelfExtensions.HostConfig,WorkData.Util.Common",
+      "injectProperties": true,
+      "properties": {
+        "ServiceName": "WorkData.QueueScheduling",
+        "ServiceDescription": "WorkData队列任务",
+        "ServiceDisplayName": "WorkData队列任务",
+        "InstanceName": "WorkData.QueueScheduling",
+        "RunAs": 0,
+        "StartMode": 0
+        //"Password": "",
+        //"UserName": ""
+      }
+    }
+  ]
+}

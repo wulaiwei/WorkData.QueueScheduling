@@ -1,0 +1,22 @@
+﻿{
+  "components": [
+    {
+      "type": "WorkData.Service.Core.Config.TimingConfig,WorkData.Service.Core",
+      "injectProperties": true,
+      "properties": {
+        "DeadLetterExchange": "WorkDataDeadLetterExchange",
+        "DeadLetterRoutingKey": "WorkDataDeadLetterRoutingKey",
+        "ReceiveQueueName": "WorkDataDeadLetterQueue"
+      }
+    },
+    {
+      "type": "WorkData.Service.Core.Config.ApiHostConfig,WorkData.Service.Core",
+      "injectProperties": true,
+      "properties": {
+        "AddMessage": "http://127.0.0.1/api/message/add",
+        "UpdateMessage": "http://127.0.0.1/api/message/update",
+        "QueryMessage": "http://127.0.0.1/api/message/query"
+      }
+    }
+  ]
+}

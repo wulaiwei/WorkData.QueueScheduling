@@ -1,0 +1,13 @@
+﻿一.使用框架
+1.TopSelf 宿主服务
+    >1.1依赖dll
+		TopSelf  、 TopSelf.Autofac
+2.IOC Autofac
+	>2.1依赖dll
+		Autofac、Autofac.Configuration
+3.AOP Castle+Autofac
+	>3.1依赖dll
+		Autofac.Extras.DynamicProxy  、 Castle.Core
+4.队列 + 发布订阅  （）
+
+		
